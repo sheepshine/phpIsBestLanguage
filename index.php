@@ -6,7 +6,7 @@
     </head>
     <body>
         <?php
-            require("title.php");
+            //equire("title.php");
             echo 'hello world<br>';
             echo PHP_OS.'<br>';
 
