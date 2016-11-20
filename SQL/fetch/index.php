@@ -24,9 +24,13 @@
     //     echo $row['name']."<br>";
     // }
 
-    while($row=mysqli_fetch_aSSOC($query)){
-        print_r($row);
-        echo $row['name']."<br>";
-    }
+    // while($row=mysqli_fetch_aSSOC($query)){
+    //     print_r($row);
+    //     echo $row['name']."<br>";
+    // }
+
+    $arr=mysqli_fetch_object($query);
+
+    print_r($arr)
 
 ?>
